@@ -1,12 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/Happy-mothers-day",
+      "source": "/countdown",
       "destination": "index.html"
     },
     {
       "source": "/happy-mothers-day",
-      "destination": "src/secret/happymothersday.html"
+      "destination": "../src/secret/happymothersday.html"
     }
   ],
   
