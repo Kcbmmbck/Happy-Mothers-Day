@@ -5,8 +5,8 @@
       "destination": "index.html"
     },
     {
-      "source": "/happy-mothers-day",
-      "destination": "/happymothersday.html"
+      "source": "/happymothersday",
+      "destination": "happymothersday.html"
     }
   ],
   

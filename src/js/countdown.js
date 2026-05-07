@@ -19,7 +19,7 @@ const targetDate = new Date("May 7, 2026 00:00:00").getTime();
           "Today is the special day filled with love!";
 
         setTimeout(() => {
-          window.location.href = "/happy-mothers-day";
+          window.location.href = "/happymothersday";
         }, 2000);
         return;
       }
