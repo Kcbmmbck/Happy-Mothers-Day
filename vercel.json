@@ -6,7 +6,7 @@
     },
     {
       "source": "/happymothersday",
-      "destination": "/src/secrets/happymothersday.html"
+      "destination": "happymothersday.html"
     }
   ],
   
