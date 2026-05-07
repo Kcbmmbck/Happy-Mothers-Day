@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/Happy-mothers-day",
+      "destination": "index.html"
+    },
+    {
       "source": "/happy-mothers-day",
       "destination": "src/secret/happymothersday.html"
     }
