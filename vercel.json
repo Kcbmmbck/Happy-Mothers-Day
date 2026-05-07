@@ -1,6 +1,16 @@
 {
-  "rewrites": [{ "source": "/Happy Mother's Day", "destination": "/index.html" }],
-   "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/happy-mothers-day",
+      "destination": "/index.html"
+      
+    },
+    {
+      "source": "/happy-mothers-day",
+      "destination": "/src/secret/happymothersday.html"
+    }
+  ],
+  
+  "cleanUrls": true,
   "trailingSlash": false
 }
- 
