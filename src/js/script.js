@@ -467,8 +467,3 @@ function createSparkle() {
 
 setInterval(createSparkle, 350);
 
-if (localStorage.getItem("surpriseUnlocked") !== "yes") {
-  window.location.href = "/";
-} else {
-  localStorage.removeItem("surpriseUnlocked");
-}

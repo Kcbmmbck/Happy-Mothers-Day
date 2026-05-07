@@ -18,6 +18,12 @@ function updateCountdown() {
     document.querySelector(".subtitle").textContent =
       "Today is the special day filled with love!";
 
+    if (localStorage.getItem("surpriseUnlocked") !== "yes") {
+      window.location.href = "/";
+    } else {
+      localStorage.removeItem("surpriseUnlocked");
+    }
+
     setTimeout(() => {
       window.location.href = "/happymothersday";
     }, 2000);
@@ -81,4 +87,5 @@ function createSparkle() {
 }
 
 setInterval(createSparkle, 350);
+
 
